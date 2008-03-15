@@ -1,0 +1,15 @@
+Recent Posts Sidebar Plugin for Typo
+
+Created by Frédéric de Villamil
+http://fredericdevillamil.com
+
+A simple plugin that displays the last posts published in the sidebar.
+You can choose the number of posts to display (default 10), and the length of the snippet (default 150).
+
+Feel free to contact me for support or improvement : frederic@de-villamil.com.
+
+This plugin is released under the MIT Licence.
+
+Requirement : Typo v4.0 and above with plugins in the /vendor/plugins 
+
+Install : just unpack this archive in your /vendor/plugins/ directory, restart your Typo, log in as an administrator and activate the plugin into the sidebar page. You're done.

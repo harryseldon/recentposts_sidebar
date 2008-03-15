@@ -1,0 +1,15 @@
+<h3><%=h title %></h3>
+<div>
+	<%= post_length %>
+    <ul>
+        <% for post in sidebar.recent_posts -%>
+	            <li>
+					<%= link_to_permalink post, post.title %>
+					<% if post_length and post_length.to_i > 1 -%>
+						<p><%= post.body.gsub(/<\/?[^>]*>/, "").slice(0..post_length.to_i) %>...</p>
+					<% end %>
+	            </li>
+	        <% end %>
+	    </ul>
+	</div>
+	
