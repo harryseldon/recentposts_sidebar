@@ -1,4 +1,4 @@
-class RecentPostsSidebar < Sidebar
+class LastPostsSidebar < Sidebar
   description "Displays the last posts published"
 
   setting :title,     "Recent Posts", :label => "Title"
